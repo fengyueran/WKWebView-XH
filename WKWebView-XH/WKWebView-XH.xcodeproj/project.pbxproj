@@ -16,6 +16,8 @@
 		825FF6D31DFE830900F754E8 /* WKWebView_XHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6D21DFE830900F754E8 /* WKWebView_XHTests.m */; };
 		825FF6DE1DFE830900F754E8 /* WKWebView_XHUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6DD1DFE830900F754E8 /* WKWebView_XHUITests.m */; };
 		825FF6ED1DFE831A00F754E8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825FF6EC1DFE831A00F754E8 /* WebKit.framework */; };
+		825FF6F01DFE848E00F754E8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6EF1DFE848E00F754E8 /* MainViewController.m */; };
+		825FF6F31DFE857F00F754E8 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6F21DFE857F00F754E8 /* MyNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		825FF6DD1DFE830900F754E8 /* WKWebView_XHUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebView_XHUITests.m; sourceTree = "<group>"; };
 		825FF6DF1DFE830900F754E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		825FF6EC1DFE831A00F754E8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		825FF6EE1DFE848E00F754E8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		825FF6EF1DFE848E00F754E8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		825FF6F11DFE857F00F754E8 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		825FF6F21DFE857F00F754E8 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 				825FF6BC1DFE830800F754E8 /* AppDelegate.m */,
 				825FF6BE1DFE830800F754E8 /* ViewController.h */,
 				825FF6BF1DFE830800F754E8 /* ViewController.m */,
+				825FF6F11DFE857F00F754E8 /* MyNavigationController.h */,
+				825FF6F21DFE857F00F754E8 /* MyNavigationController.m */,
+				825FF6EE1DFE848E00F754E8 /* MainViewController.h */,
+				825FF6EF1DFE848E00F754E8 /* MainViewController.m */,
 				825FF6C11DFE830800F754E8 /* Main.storyboard */,
 				825FF6C41DFE830800F754E8 /* Assets.xcassets */,
 				825FF6C61DFE830800F754E8 /* LaunchScreen.storyboard */,
@@ -288,6 +298,8 @@
 				825FF6C01DFE830800F754E8 /* ViewController.m in Sources */,
 				825FF6BD1DFE830800F754E8 /* AppDelegate.m in Sources */,
 				825FF6BA1DFE830800F754E8 /* main.m in Sources */,
+				825FF6F01DFE848E00F754E8 /* MainViewController.m in Sources */,
+				825FF6F31DFE857F00F754E8 /* MyNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
