@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface ViewController ()
 
@@ -16,13 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    WKWebView *webView = [[WKWebView alloc]initWithFrame:self.view.bounds];
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+    [self.view addSubview:webView];
 }
 
 
