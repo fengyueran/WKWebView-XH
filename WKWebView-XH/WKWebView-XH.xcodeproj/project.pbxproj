@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		825FF6BA1DFE830800F754E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6B91DFE830800F754E8 /* main.m */; };
 		825FF6BD1DFE830800F754E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6BC1DFE830800F754E8 /* AppDelegate.m */; };
-		825FF6C01DFE830800F754E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6BF1DFE830800F754E8 /* ViewController.m */; };
+		825FF6C01DFE830800F754E8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825FF6BF1DFE830800F754E8 /* WebViewController.m */; };
 		825FF6C31DFE830800F754E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825FF6C11DFE830800F754E8 /* Main.storyboard */; };
 		825FF6C51DFE830800F754E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825FF6C41DFE830800F754E8 /* Assets.xcassets */; };
 		825FF6C81DFE830800F754E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825FF6C61DFE830800F754E8 /* LaunchScreen.storyboard */; };
@@ -42,8 +42,8 @@
 		825FF6B91DFE830800F754E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		825FF6BB1DFE830800F754E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		825FF6BC1DFE830800F754E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		825FF6BE1DFE830800F754E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		825FF6BF1DFE830800F754E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		825FF6BE1DFE830800F754E8 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		825FF6BF1DFE830800F754E8 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		825FF6C21DFE830800F754E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		825FF6C41DFE830800F754E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		825FF6C71DFE830800F754E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 			children = (
 				825FF6BB1DFE830800F754E8 /* AppDelegate.h */,
 				825FF6BC1DFE830800F754E8 /* AppDelegate.m */,
-				825FF6BE1DFE830800F754E8 /* ViewController.h */,
-				825FF6BF1DFE830800F754E8 /* ViewController.m */,
+				825FF6BE1DFE830800F754E8 /* WebViewController.h */,
+				825FF6BF1DFE830800F754E8 /* WebViewController.m */,
 				825FF6F11DFE857F00F754E8 /* MyNavigationController.h */,
 				825FF6F21DFE857F00F754E8 /* MyNavigationController.m */,
 				825FF6EE1DFE848E00F754E8 /* MainViewController.h */,
@@ -295,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825FF6C01DFE830800F754E8 /* ViewController.m in Sources */,
+				825FF6C01DFE830800F754E8 /* WebViewController.m in Sources */,
 				825FF6BD1DFE830800F754E8 /* AppDelegate.m in Sources */,
 				825FF6BA1DFE830800F754E8 /* main.m in Sources */,
 				825FF6F01DFE848E00F754E8 /* MainViewController.m in Sources */,
@@ -529,6 +529,7 @@
 				825FF6E41DFE830900F754E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825FF6E51DFE830900F754E8 /* Build configuration list for PBXNativeTarget "WKWebView-XHTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +538,7 @@
 				825FF6E71DFE830900F754E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825FF6E81DFE830900F754E8 /* Build configuration list for PBXNativeTarget "WKWebView-XHUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +547,7 @@
 				825FF6EA1DFE830900F754E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

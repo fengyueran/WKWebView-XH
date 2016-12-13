@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "MyNavigationController.h"
+#import "WebViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     MainViewController *mainVC = [[MainViewController alloc]init];
-    self.navController = [[MyNavigationController alloc]initWithRootViewController:mainVC];
+    WebViewController *webVC = [[WebViewController alloc]init];
+    self.navController = [[MyNavigationController alloc]initWithRootViewController:webVC];
     self.window.rootViewController = self.navController ;
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];

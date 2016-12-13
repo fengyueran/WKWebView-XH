@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "ViewController.h"
+#import "WebViewController.h"
 #import "AppDelegate.h"
 #import "MyNavigationController.h"
 
@@ -32,8 +32,9 @@
 - (void)go {
 //    NSString* twitter2 = @"https://baidu.com";
     NSString* twitter2 = @"https://twitter.com/search?q=video&src=typd";
+    
 //    RxWebViewController *controller = [[RxWebViewController alloc] initWithUrl:[NSURL URLWithString:twitter2]];
-    ViewController *controller = [[ViewController alloc]init];
+    WebViewController *controller = [[WebViewController alloc]init];
     AppDelegate *app = (AppDelegate *)[[UIApplication  sharedApplication] delegate];
     [app.navController pushViewController:controller animated:YES];
 }
